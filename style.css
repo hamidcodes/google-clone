@@ -1,0 +1,217 @@
+/*CSS RESET CODES */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my codes */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:monospace;
+    background-color:#FFFFFF;
+    overflow: hidden;
+    
+}
+
+header{
+    width:100%
+}
+ul{
+    list-style: none;
+    
+}
+.top-left{
+    float:left;
+    height: 30px;
+    width: 242px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: normal;
+}
+.top-left li{
+    display: inline-block;
+    padding-left:30px;
+    padding-top:20px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: normal;
+    position: static;
+}
+
+.top-right{
+    float:right;
+    height: 30px;
+    width: 242px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: normal;
+    display: flex;
+    position:relative;
+}
+.top-right li{
+    display:inline-block;
+    padding-left:30px;
+    padding-top:20px;
+    height: 15px;
+    width: 36px;
+}
+.nav-link{
+    color:#404040;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+a:hover{
+    text-decoration: underline;
+}
+.fas{
+    color:#797979;
+}
+.fas:hover{
+    color:black;
+}
+
+
+
+
+/*google photo*/
+.google ,#photo{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-family:arial,sans-serif;
+    font-size:13px;
+    line-height:normal;
+}
+
+.search{
+    text-align:center;
+    width:100%;
+    height: 52px;
+    display:block;
+    position:absolute;
+    font-family:arial,sans-serif;
+    font-size:13px;
+    line-height:normal;
+    
+
+}
+#bar{
+    margin:0 auto;
+    display:flex;
+    position: static;
+    font-family: arial, sans-serif;
+    font-size: 13px;    
+    line-height: normal;
+    height: 44px;
+    width: 582px;
+    border-radius: 20px;
+    border:1px solid rgb(51, 51, 4);
+}
+
+.buttons{
+    text-align:center;
+    padding-top:60px;
+    margin-bottom:300px;
+    font-family: arial, sans-serif;
+    font-size: 13px;    
+    line-height: normal;
+    
+    
+    
+
+}
+
+#button1{
+    border:none;
+    border-radius:10px;
+    width:127px;
+    height:36px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    cursor:pointer;
+}
+    
+#button2{
+    border:none;
+    border-radius:10px;
+    width:127px;
+    height:36px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    cursor:pointer;
+}
+
+.foot{
+    margin-top:-70px;
+    background: #770404;
+}
+footer  {
+    
+    border-top: solid 2px #6e3939;
+    padding-bottom:10px;
+    width: 100%;
+    
+  }
+  
+  footer ul li {
+    display: inline-block;
+    color: #0e0202;
+    font-size: 14px;
+    padding: 13px;
+  }
+  
+  .bottom-left{
+      float:left;
+
+  }
+  .bottom-right{
+      float:right;
+  }
